@@ -6,9 +6,9 @@
 // THIS VALUES DEPENDS ON THE VOLTAGE, MOTORS, PULLEYS AND ROBOT CONSTRUCTION
 // RECOMMENDED VALUES FOR 12V POWER SUPPLY
 #define MIN_ACCEL_X 60
-#define MAX_ACCEL_X 300   //360 //300//320      // Maximun motor acceleration in (steps/seg2)/1000
+#define MAX_ACCEL_X 300   //300 //360 //300//320      // Maximun motor acceleration in (steps/seg2)/1000
 #define MIN_ACCEL_Y 60
-#define MAX_ACCEL_Y 145    //140//220 
+#define MAX_ACCEL_Y 140   //145  //140//220 
 #define MAX_SPEED_X 25000     //max 25000 for 12V   // Maximun speed in steps/seg
 #define MAX_SPEED_Y 25000
 

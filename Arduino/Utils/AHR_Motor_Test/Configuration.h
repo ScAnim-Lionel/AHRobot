@@ -8,7 +8,7 @@
 #define MIN_ACCEL_X 60
 #define MAX_ACCEL_X 300   //360 //300//320      // Maximun motor acceleration in (steps/seg2)/1000
 #define MIN_ACCEL_Y 60
-#define MAX_ACCEL_Y 145    //140//220 
+#define MAX_ACCEL_Y 140    //140//220 
 #define MAX_SPEED_X 25000     //max 25000 for 12V   // Maximun speed in steps/seg
 #define MAX_SPEED_Y 25000
 
