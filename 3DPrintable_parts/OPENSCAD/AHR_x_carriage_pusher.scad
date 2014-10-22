@@ -89,7 +89,7 @@ module border_pusher()
 {
 	difference()
 	{
-	cylinder (r=diameter/2, h=12.5,$fn=80);
+	cylinder (r=diameter/2, h=14.5,$fn=80);
 	cylinder (r=diameter/2-5, h=15,$fn=80);
 	}
 }
@@ -99,9 +99,9 @@ module x_carriage_pusher_base()
 	cylinder (r=diameter/2, h=2,$fn=80);
 	translate([0,0,0]) border_pusher();
 
-	translate([30,0,5.5]) cube([10,5,11],center=true);
-	rotate([0,0,25])translate([30,0,5.5]) cube([10,5,11],center=true);
-	rotate([0,0,-25])translate([30,0,5.5]) cube([10,5,11],center=true);
+	translate([30,0,7]) cube([10,5,14],center=true);
+	rotate([0,0,25])translate([30,0,7]) cube([10,5,14],center=true);
+	rotate([0,0,-25])translate([30,0,7]) cube([10,5,14],center=true);
 	
 }
 
